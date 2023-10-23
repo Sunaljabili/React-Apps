@@ -1,0 +1,23 @@
+.navbar {
+    background-color: #8a959a;
+    width: 100%;
+    min-height: 80px;
+
+    ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            margin: 20px;
+            font-size: 28px;
+            transition: all 1s;
+
+            &:hover{
+                color: greenyellow;
+                cursor:pointer;
+
+            }
+        }
+    }
+}
